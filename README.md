@@ -86,6 +86,16 @@
 
 **Блок-схема**
 ```mermaid
+%%{
+  init: {
+    'theme': 'base', 
+     'themeVariables': {
+        'fontSize': '90%'
+      }
+     }
+}%%
+
+
 graph TD
  A([Начало]) --> B[Ввести X]
  B --> C{X - натуральное число?}
